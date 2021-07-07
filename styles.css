@@ -1,0 +1,71 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+ display:block;
+ float:left;
+ width:100%;
+  background: #1aaa6f;
+  font-family: 'Poppins', sans-serif;
+}
+
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+
+.box {
+  display:block;
+  padding: 5px;
+  float:left;
+}
+
+.header {
+  padding:15px;
+  border: 1px #000 solid;
+  width:100%;
+}
+
+.message {
+  width:calc(100% - 150px);
+  color: #fff;
+}
+
+.message > h1 {
+  margin-top:0;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:0;
+  font-weight: bolder;
+}
+
+.message > p {
+  margin-top:0;
+  margin-right:0;
+  margin-bottom:0;
+  margin-left:0;
+  font-weight:300;
+}
+
+.login {
+  color:#fff;
+  width:150px;
+  text-align: right;
+}
+
+.login > i {
+ font-size: 2em; 
+ display:inline-block;
+ background: #fff;
+ color:#1aaa6f;
+ width: 45px;
+ height:45px;
+ padding: 5px 0 0 0;
+ border-radius: 100%;
+ text-align: center;
+ margin-left: 5px;
+}
+
