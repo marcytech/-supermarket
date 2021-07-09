@@ -17,10 +17,26 @@ body {
   background: blue;
 }
 
+.content {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto ;
+}
+
 .box {
   display:block;
   padding: 5px;
   float:left;
+}
+
+.left-col {
+  width: 60%;
+}
+
+.right-col {
+  width: 40%;
+  background: #fff;
+  padding: 15px;
 }
 
 .header {
@@ -67,5 +83,35 @@ body {
  border-radius: 100%;
  text-align: center;
  margin-left: 5px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+
+.search > input {
+  background: #108f6f;
+  color:#fff;
+  padding: 22px 15px 22px 60px;
+  border-radius: 15px;
+  border: 0;
+  width: 100%;
+  outline:0;
+}
+
+.search > i {
+  position:absolute;
+  top: 50%;
+  left:22px;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.search ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 0.5; /* Firefox */
 }
 
