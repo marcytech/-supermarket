@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size:16px
+}
+
 body {
  display:block;
  float:left;
@@ -23,6 +27,12 @@ body {
   margin: 0 auto ;
 }
 
+.clear{
+  display:block;
+  width: 100%;
+  clear:both
+}
+
 .box {
   display:block;
   padding: 5px;
@@ -31,6 +41,7 @@ body {
 
 .left-col {
   width: 60%;
+  padding: 5px 15px;
 }
 
 .right-col {
@@ -40,8 +51,7 @@ body {
 }
 
 .header {
-  padding:15px;
-  border: 1px #000 solid;
+  padding:15px 0;
   width:100%;
 }
 
@@ -51,10 +61,7 @@ body {
 }
 
 .message > h1 {
-  margin-top:0;
-  margin-left:0;
-  margin-right:0;
-  margin-bottom:0;
+  margin: 0;
   font-weight: bolder;
 }
 
@@ -115,3 +122,64 @@ body {
   opacity: 0.5; /* Firefox */
 }
 
+.category {
+  width: 100%;
+  padding: 5px 0;
+}
+
+.category > .item {
+  background: #129e6c;
+  width: calc(25% - 10px);
+  margin: 5px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.category .item i {
+  font-size: 3em;
+  color: #ebebeb;
+}
+
+.category .text {
+  color: #fff;
+  font-weight: bold;
+  font-size: .875em;
+  padding: 3px;
+  margin: 0;
+}
+
+.category .text.font-lit {
+  font-size: .75em;
+  font-weight: 300;
+}
+
+.category .btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  color:#fff;
+  font-size: .875em;
+  font-weight: bold;
+  background-color:#129e6c;
+
+  width: 100%;
+  border: 0;
+  outline:0;
+  border-radius: 8px;
+  vertical-align: text-top;
+
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.category .btn i {
+  font-size: 2.5em;
+  margin-left: 15px;
+}
+
+.space {
+  padding: 10px;
+}
