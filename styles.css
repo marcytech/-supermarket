@@ -183,3 +183,72 @@ body {
 .space {
   padding: 10px;
 }
+
+.footer {
+  padding-right: 0;
+}
+
+.footer, 
+.footer-text {
+  color:#fff;
+  width: 100%;
+}
+
+.footer-text {
+  padding: 0;
+}
+
+.footer .btn,
+.footer .footer-ask {
+  display:block;
+  float:left;
+}
+
+.footer .btn {
+  padding: 20px;
+  color: #333;
+  font-weight: bolder;
+  font-size: 1.2em;
+  background: #ffce1f;
+  border: 0;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 220px;
+  text-transform: capitalize;
+}
+
+.footer-ask {
+  margin: 15px 0 15px 0;
+}
+
+
+
+.footer-text button,
+.footer-text p {
+  display: block;
+  float: left;
+}
+
+.footer-text p,
+.footer-text span {
+  margin: 0 7.5px;
+}
+
+.footer-text p {
+  font-weight: bolder;
+  float:right;
+  margin: 0 0 0 0;
+}
+
+.footer-text p span:first-of-type {
+  margin: 0 0 0 7.5px;
+}
+
+
+.footer-text i {
+  margin-left: 10px;
+  font-size: 1.5em;
+  background: #108f6f;
+  border-radius: 100%;
+  padding: 5px;
+}
